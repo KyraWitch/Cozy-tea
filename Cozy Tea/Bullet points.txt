@@ -1,6 +1,5 @@
 Cozy tea Bullet points
 
-
 Font-Family: "Helvatica";
 Font size: 22px;
 Color: seashell;
