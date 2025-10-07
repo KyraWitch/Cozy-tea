@@ -11,7 +11,6 @@
 * {
     text-decoration: none;
     font-family: Helvetica;
-    opacity: 0.9;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +23,7 @@ body {
     width: 1300px;
     height: 2400px;
     justify-self: center;
-    
+    opacity: 0.9;
 }
 
 
@@ -146,7 +145,7 @@ margin-bottom: 15px;
     flex-direction: row;
     flex-wrap: nowrap;
     position: absolute;
-    bottom: -460px;
+    bottom: -535px;
     justify-self: center;
     opacity: 1;
 }
@@ -177,7 +176,7 @@ margin-bottom: 15px;
 
 .bot-header-div {
     position: absolute;
-    bottom: -178px;
+    bottom: -253px;
     justify-self: center;
     
 }
