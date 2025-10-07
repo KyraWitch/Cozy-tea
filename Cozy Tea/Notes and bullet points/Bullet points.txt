@@ -51,3 +51,15 @@ copyright The Tea Cozy 2017
 20px space between end div and footer
 text align left
 Yes the c is uncapitalized idk why
+
+
+
+
+
+
+Site size
+1300 wide
+2400 tall
+
+
+Row size 50 high 1200 wide

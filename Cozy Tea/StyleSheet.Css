@@ -10,7 +10,109 @@
 /*Global styles*/
 * {
     text-decoration: none;
+    font-size: 22px;
+    font-family: Helvetica;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
 }
 
+body {
+    background-color: var(--primary-bg-colour);
+    width: 1300px;
+    height: 2400px;
+}
 /*Global styles End*/
 
+/*Top of page*/
+.top-div {
+height: 69px;
+width: 100%;
+border-bottom: 1px solid var(--primary-colour-1);
+}
+
+.Logo {
+    position: absolute;
+    height: 50px;
+    margin-left: 10px;
+}
+
+/*Might have to add another div here*/
+header{
+    text-decoration: underline;
+}
+/*End of Top of Page*/
+
+/*Middle big picture*/
+.mid-div {
+    width: 1200px;
+    height: 700px;
+}
+
+.mid-div-img {
+    height: inherit;
+    width: inherit;
+}
+
+.mid-div-txt-row {
+    position: absolute;
+    justify-items: center;
+    height: 50px;
+    width: inherit;
+}
+
+/*End of Middle big picture*/
+
+/*Under div Area*/
+.under-div {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.udr-flex-imgs {
+    height: 200px;
+    width: 300px;
+}
+
+.udr-flex-labels {
+margin-top: 10px;
+}
+/*End of Under div Area*/
+
+
+
+/*Bottom Div Area*/
+.bottom-div {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/*End of bottom div Area*/
+
+/*End div Area*/
+.end-div {
+    height: 200px;
+}
+/*End of End div Area*/
+
+/*Footer Area*/
+footer {
+width: 100%;
+height: 80px;
+margin-top: 20px;
+}
+
+footer p {
+text-align: left;
+padding-left: 20px;
+}
+/*Footer Area End*/
