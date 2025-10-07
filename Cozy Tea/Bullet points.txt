@@ -8,7 +8,6 @@ opacity: 0.9;
 
 text has to be centered horizontally (isnt it always..?)
 
-
 Top div
 Logo: top left 50 height 
 
