@@ -1,0 +1,55 @@
+Cozy tea Bullet points
+
+
+Font-Family: "Helvatica";
+Font size: 22px;
+Color: seashell;
+Background-color: Black;
+opacity: 0.9;
+
+text has to be centered horizontally (isnt it always..?)
+
+
+Top div
+Logo: top left 50 height 
+
+Nav bar: 3 points, flexbox, top right, Mission Featured tea and Locations, fixed headers, text-decoration:Underline;
+
+Extra:
+69px space from TOP to mid div
+
+mid div
+Pic with a div in the middle probably use float?
+mid div 1200px wide
+Pic fills whole div
+Mid div 700px tall
+Div in middle of pic: Title h2, sub h4, space between (Use Br)
+Centered vertically
+
+under div
+Div: 1000px wide, Flexbox, 5 pics in a flex box space-between wrap
+			   Height 200px width 300px == all
+			   10px between under label and pic
+Label under pics maybe label maybe p?
+
+2nd under div
+Big pic with a flex box of 3 small boxes in the middle and a label: Location in the middle
+Probably float the pic?
+labels are h3
+40px space horizentioally
+15px vertically from label
+Evenly spaced
+opacity: 1;
+Boxes width: 300px == All
+Big pic 500px height
+sentences are spaced i'd guess like 50px? so 3 br?
+
+end div
+Title, Email h5 text-decoration bold, number text-decoration bold
+Div: height:200px;
+
+Footer
+copyright The Tea Cozy 2017
+20px space between end div and footer
+text align left
+Yes the c is uncapitalized idk why
