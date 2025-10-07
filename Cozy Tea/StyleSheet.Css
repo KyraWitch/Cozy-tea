@@ -10,22 +10,42 @@
 /*Global styles*/
 * {
     text-decoration: none;
-    font-size: 22px;
     font-family: Helvetica;
     opacity: 0.9;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
+    color: var(--primary-colour-1);
+    font-weight: bold;
 }
 
 body {
     background-color: var(--primary-bg-colour);
     width: 1300px;
     height: 2400px;
+    justify-self: center;
+    
 }
+
+
+h2 {
+    padding-top: 15px;
+    font-size: 33px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+ font-size: 22px;
+}
+
+h5 {
+    font-size: 15;
+    font-weight: bolder;
+}
+
 /*Global styles End*/
 
 /*Top of page*/
@@ -39,11 +59,19 @@ border-bottom: 1px solid var(--primary-colour-1);
     position: absolute;
     height: 50px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 /*Might have to add another div here*/
+.top-header-con{
+    display: flex;
+    justify-self: right;
+}
+
 header{
     text-decoration: underline;
+    padding-left: 15px;
+    padding-top: 20px;
 }
 /*End of Top of Page*/
 
@@ -51,6 +79,7 @@ header{
 .mid-div {
     width: 1200px;
     height: 700px;
+    justify-self: center;
 }
 
 .mid-div-img {
@@ -61,8 +90,10 @@ header{
 .mid-div-txt-row {
     position: absolute;
     justify-items: center;
-    height: 50px;
+    height: 105px;
     width: inherit;
+    top: 350px;
+    background-color: var(--primary-bg-colour);
 }
 
 /*End of Middle big picture*/
@@ -70,18 +101,27 @@ header{
 /*Under div Area*/
 .under-div {
     width: 1000px;
+    justify-items: center;
+    justify-self: center;
+}
+
+.udr-flexbox{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .udr-flex-imgs {
     height: 200px;
     width: 300px;
+    margin-left: 30px;
 }
 
 .udr-flex-labels {
 margin-top: 10px;
+justify-self: center;
+margin-bottom: 15px;
 }
 /*End of Under div Area*/
 
@@ -89,18 +129,68 @@ margin-top: 10px;
 
 /*Bottom Div Area*/
 .bottom-div {
-    height: 500px;
+    justify-self: center;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+
+.bot-bg-img {
+    width: 1200;
+    height: 570px;
+}
+
+
+.bot-flex-txt {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    position: absolute;
+    bottom: -460px;
+    justify-self: center;
+    opacity: 1;
 }
+
+.bot-txt {
+    width: 300px;
+    background-color: var(--primary-bg-colour);
+    margin-left: 40px;
+    justify-items: center;
+    height: 275px;
+}
+
+.bot-tls {
+    margin-top: 25px;
+}
+
+.bot-des1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.bot-des2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.bot-header-div {
+    position: absolute;
+    bottom: -178px;
+    justify-self: center;
+    
+}
+
+
 
 /*End of bottom div Area*/
 
 /*End div Area*/
 .end-div {
     height: 200px;
+    justify-self: center;
+    text-align: center;
 }
 /*End of End div Area*/
 
@@ -112,7 +202,7 @@ margin-top: 20px;
 }
 
 footer p {
-text-align: left;
+    text-align: left
 padding-left: 20px;
 }
 /*Footer Area End*/
