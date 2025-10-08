@@ -131,12 +131,16 @@ margin-bottom: 15px;
     justify-self: center;
     overflow: hidden;
     margin-top: 70px;
+    width: 1200px;
+    height: 570px;
 }
 
 
 .bot-bg-img {
-    width: 1200;
-    height: 570px;
+    width: inherit;
+    height: inherit;
+    float: inline-start;
+    margin-left: 50px;
 }
 
 
@@ -145,9 +149,9 @@ margin-bottom: 15px;
     flex-direction: row;
     flex-wrap: nowrap;
     position: absolute;
-    bottom: -535px;
-    justify-self: center;
+    margin-top: 150px;
     opacity: 1;
+    justify-self: center;
 }
 
 .bot-txt {
@@ -176,9 +180,8 @@ margin-bottom: 15px;
 
 .bot-header-div {
     position: absolute;
-    bottom: -253px;
     justify-self: center;
-    
+    margin-top: 90px;
 }
 
 
